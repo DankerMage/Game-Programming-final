@@ -15,11 +15,11 @@ C:/Users/722601/Documents/GitHub/Game-Programming-final/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50518
+50852
 Successfully changed project path to: C:/Users/722601/Documents/GitHub/Game-Programming-final/New Unity Project
 C:/Users/722601/Documents/GitHub/Game-Programming-final/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,31 +35,31 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002144 seconds.
+Registered in 0.002663 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
+- Completed reload, in  1.029 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.045646 seconds.
+Registered in 0.001727 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 30.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.609 seconds
+- Completed reload, in  0.832 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -71,99 +71,13 @@ System memory in use before: 84.9 MB.
 System memory in use after: 84.8 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 1.624000 ms (FindLiveObjects: 0.141800 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.298500 ms  DeleteObjects: 0.127400 ms)
+Total: 1.619300 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.308400 ms  DeleteObjects: 0.096000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/F1Car/Demo.unity
-  artifactKey: Guid(3a89e7e5a7ee8284f800da91de6b5066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F1Car/Demo.unity using Guid(3a89e7e5a7ee8284f800da91de6b5066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9811bcdac4a4572d0ffb36390dd7b4') in 0.010174 seconds
-  Import took 0.012332 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001527 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 1.862500 ms (FindLiveObjects: 0.152400 ms CreateObjectMapping: 0.060700 ms MarkObjects: 1.491500 ms  DeleteObjects: 0.157300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.752923 seconds.
-  path: Assets/F1Car/DemoSettings.lighting
-  artifactKey: Guid(51399f4b3d3aeea4ba9f1f674ceabde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F1Car/DemoSettings.lighting using Guid(51399f4b3d3aeea4ba9f1f674ceabde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '92b9ca2c102fc749385ca7ae8c805cb3') in 0.029076 seconds
-  Import took 0.031506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/F1Car/DemoSettings.lighting
-  artifactKey: Guid(51399f4b3d3aeea4ba9f1f674ceabde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/F1Car/DemoSettings.lighting using Guid(51399f4b3d3aeea4ba9f1f674ceabde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '92b9ca2c102fc749385ca7ae8c805cb3') in 0.003360 seconds
-  Import took 0.005644 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001534 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 1.649900 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.353000 ms  DeleteObjects: 0.083400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.169750 seconds.
-  path: Packages/com.unity.2d.sprite
-  artifactKey: Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite using Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac9f0859ed1eccac4506b3b2480e9d0') in 0.005254 seconds
-  Import took 0.007963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000828 seconds.
-  path: Packages/com.unity.2d.sprite
-  artifactKey: Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite using Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac9f0859ed1eccac4506b3b2480e9d0') in 0.002931 seconds
-  Import took 0.005704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.002662 seconds.
-  path: Packages/com.unity.2d.sprite/package.json
-  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff87128bdf6981a9843158b29f26b2df') in 0.021660 seconds
-  Import took 0.023999 seconds .
+  path: Assets/F1Car/Sprite
+  artifactKey: Guid(9238b577f7f73e14eac13176a114bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/F1Car/Sprite using Guid(9238b577f7f73e14eac13176a114bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de8d5c86dc9e62a8a55ab3aacb59810') in 0.004544 seconds
+  Import took 0.007368 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
